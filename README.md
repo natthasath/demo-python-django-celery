@@ -1,4 +1,4 @@
-# 🎉 DEMO Python Django
+# 🎉 DEMO Python Django Celery
 
 Django: Python web framework that streamlines backend development, encouraging efficient, secure, and scalable creation of dynamic websites and applications
 
