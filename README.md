@@ -99,6 +99,7 @@ python manage.py runsslserver --certificate ../certs/localhost.crt --key ../cert
 
 ```
 celery -A core beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
+celery -A core worker -l info
 celery -A core worker -l info -P eventlet
 celery -A core worker -l info -Q Q1,Q2
 ```
