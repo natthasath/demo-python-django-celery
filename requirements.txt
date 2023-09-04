@@ -1,0 +1,8 @@
+Django
+django-sslserver
+python-decouple
+django-import-export
+django-celery-beat
+django-celery-results
+celery
+eventlet

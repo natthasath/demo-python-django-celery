@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% include 'static.html' %}
+    <title>Articles</title>
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <div class="container">
+        <h1>Articles</h1>
+        <div class="articles">
+            {% for x in data %}
+            <div class="x">
+                <h2><a href="{% url 'detail' x.id %}">{{ x.title }}</a></h2>
+                <p>{{ x.cutbody }}</p>
+            </div>
+            {% endfor %}
+        </div>
+        <!-- {% include 'example/login.html' %} -->
+        <!-- {% include 'example/table.html' %} -->
+        {% include 'example/form.html' %}
+    </div>
+    
+</body>
+</html>

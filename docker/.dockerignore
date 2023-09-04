@@ -1,0 +1,6 @@
+**/.env
+**/.aws
+**/.ssh
+__pycache__/
+*.pyc
+*.pyo
