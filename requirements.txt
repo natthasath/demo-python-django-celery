@@ -6,3 +6,4 @@ django-celery-beat
 django-celery-results
 celery
 eventlet
+Pillow

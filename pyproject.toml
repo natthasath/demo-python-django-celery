@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "demo-python-django-celery"
+version = "0.1.0"
+description = ""
+authors = ["natthasath <natthasath.sak@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "demo_python_django_celery"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.5"
+django-sslserver = "^0.22"
+python-decouple = "^3.8"
+django-import-export = "^3.3.1"
+django-celery-beat = "^2.5.0"
+django-celery-results = "^2.5.1"
+celery = "^5.3.6"
+eventlet = "^0.33.3"
+pillow = "^10.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
